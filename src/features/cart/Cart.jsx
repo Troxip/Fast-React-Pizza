@@ -27,8 +27,6 @@ const fakeCart = [
   },
 ];
 
-console.log(fakeCart);
-
 function Cart() {
   const username = useSelector((state) => state.user.username);
   const cart = fakeCart;
